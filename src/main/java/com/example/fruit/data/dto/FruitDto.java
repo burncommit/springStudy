@@ -1,6 +1,7 @@
 package com.example.fruit.data.dto;
 
 import com.example.fruit.data.entity.FruitEntity;
+import com.sun.istack.NotNull;
 import lombok.*;
 
 @Data
@@ -9,6 +10,8 @@ import lombok.*;
 @ToString
 @Builder
 public class FruitDto {
+
+
     private String fruitName;
     private int fruitWeight;
 
